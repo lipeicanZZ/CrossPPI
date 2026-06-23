@@ -1,0 +1,24 @@
+__pycache__/
+*.py[cod]
+
+# Generated data and model artifacts
+*.pt
+*.pth
+*.pkl
+*.npy
+*.npz
+checkpoints/
+data/processed/
+data/features/
+
+# Logs and local environments
+*.log
+.env
+.venv/
+env/
+venv/
+
+# Editor/system files
+.DS_Store
+.idea/
+.vscode/
