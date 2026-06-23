@@ -4,6 +4,10 @@ CrossPPI is a sequence-structure dual-modal framework for protein-protein intera
 
 This release provides a compact, dataset-agnostic implementation suitable for reproducing the core workflow.
 
+## Overview
+
+![CrossPPI framework](docs/crossppi_framework.png)
+
 ## Files
 
 ```text
@@ -14,6 +18,7 @@ CrossPPI_release/
 ├── requirements.txt          # Python package requirements
 ├── environment.yml           # Optional conda environment file
 ├── LICENSE                   # Open-source license
+├── docs/                     # Framework figure
 ├── data/                     # Benchmark split files
 │   ├── yeast/
 │   ├── multi_species/
